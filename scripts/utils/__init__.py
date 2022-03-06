@@ -1,4 +1,4 @@
-import scripts.geometryDash as gd
+import scripts.utils.geometryDash as gd
 class client(object):
     def __init__(self,name,id,location,module):
         self.name = str(name) + '.client'
